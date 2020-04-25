@@ -1,13 +1,18 @@
-# CodeIgniter 4 Login & Register
-CodeIgniter 4 Login &amp; Register System based on YouTube tutorial 
-> https://www.youtube.com/watch?v=uYX9FLi1BYg&list=PLYogo31AXFBONHR0WjlnhxN4ulRrF98aA
-## 1. Setup
-Change .env settings to apply to your environment
+# CodeIgniter 4 Real Time Chat Application
+This are the project files used in YouTube tutorial
+> https://www.youtube.com/watch?v=9qIIjv17IgQ
 
-## 2. Run migration
-Open terminal and navigate to your project folder, then run:
-> php spark migrate 
+### 1. Download & Install
+Once cloned, open terminal and navigate inside the project folder, then run:
+> composer install
 
-This will create the table 'users' in your database that you secified in your .env file
+### 2. Setup
+Create a new database. DO NOT create any tables yet. Create .env file (a duplicate of 'env' sample file) and uncomment default.database block. Then also change the database connection details, after that run in your terminal:
+> php spark migrate
 
-### 3. Now you can Register your first user
+This will create the tables that are required for the CodeIgniter 4 Chat Tutorial
+
+### 3. Register users
+Tables in your database are empty, so you will have to create users yourself through the registration form.
+
+### 4. Enjoy the tutorial.
